@@ -1,6 +1,6 @@
 # JWX-CLI
 
-## Decoding code stolen from [JWT](https://arachnoid.com/JWX/)
+## Decoding code stolen from [JWX](https://arachnoid.com/JWX/)
 
 ## Original copyright
 ```java
