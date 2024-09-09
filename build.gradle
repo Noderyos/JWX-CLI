@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.noderyos'
+version = '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'dev.noderyos.JWX'
+        )
+    }
+}
