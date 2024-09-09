@@ -4,6 +4,7 @@ import javax.imageio.ImageIO;
 import java.awt.image.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 final public class Image{
 
@@ -44,6 +45,7 @@ final public class Image{
                 System.out.println("save file: " + e);
             }
         }
+        parent.display.addRow(Arrays.asList("", "", ""));
     }
 
     public void perform_periodic() {

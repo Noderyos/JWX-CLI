@@ -3,6 +3,8 @@ package dev.noderyos;
 import dev.noderyos.filters.BiQuadraticFilter;
 import dev.noderyos.filters.GoertzelFilter;
 
+import java.util.Arrays;
+
 final public class DecodeFax {
 
     JWX parent;
@@ -96,6 +98,7 @@ final public class DecodeFax {
     }
 
     private void setup() {
+        parent.display.addRow(Arrays.asList("Wait", "", ""));
         sync_time = 20;
         state = State.WAITSIG;
         sample_rate = 24000;
